@@ -1,5 +1,5 @@
 [Unit] 
-Description=FishEye
+Description=FishEye Source Code Tracking
 Documentation=https://confluence.atlassian.com
 After=network.target
 
