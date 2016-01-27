@@ -1,5 +1,5 @@
 [Unit] 
-Description=Bamboo
+Description=Bamboo CI
 Documentation=https://confluence.atlassian.com
 After=network.target
 
