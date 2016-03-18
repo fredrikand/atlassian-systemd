@@ -1,0 +1,14 @@
+[Unit] 
+Description=FishEye Source Code Tracking
+Documentation=https://confluence.atlassian.com
+After=network.target
+
+[Service] 
+Type=forking
+User=fisheye
+#PIDFile=/opt/atlassian/fisheye/work/catalina.pid
+ExecStart=/opt/atlassian/fisheye/bin/start.sh
+ExecStop=/opt/atlassian/fisheye/bin/stop.sh
+
+[Install] 
+WantedBy=multi-user.target 
